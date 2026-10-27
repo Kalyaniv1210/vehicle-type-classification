@@ -1,0 +1,26 @@
+Vehicle Type Classification - Model Evaluation (Test)
+=================================================================
+Overall Accuracy:  86.67%
+Macro Precision:   86.11%
+Macro Recall:      86.67%
+Macro F1-Score:    86.24%
+Weighted F1-Score: 86.24%
+-----------------------------------------------------------------
+
+              precision    recall  f1-score   support
+
+         Bus       0.80      0.80      0.80        15
+         Car       0.94      1.00      0.97        15
+  Motorcycle       0.94      1.00      0.97        15
+       Truck       0.77      0.67      0.71        15
+
+    accuracy                           0.87        60
+   macro avg       0.86      0.87      0.86        60
+weighted avg       0.86      0.87      0.86        60
+
+
+Confusion Matrix:
+[[12  0  0  3]
+ [ 0 15  0  0]
+ [ 0  0 15  0]
+ [ 3  1  1 10]]
